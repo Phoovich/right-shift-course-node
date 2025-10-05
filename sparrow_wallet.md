@@ -18,16 +18,16 @@ If you use Windows must download GPG4Win before verify signature
 
 ### 2. click Download Gpg4win
 
-![GPG4WinFigure1](assets/GPG4Win1.png)
+![GPG4Win Figure1](assets/GPG4Win1.png)
 
 
 ### 3. set donate or not (set 0$) and click Download
 
-![GPG4WinFigure2](assets/GPG4Win2.png)
+![GPG4Win Figure2](assets/GPG4Win2.png)
 
 ### 4. click gpg4win-4.4.1.exe to install
 
-![GPG4WinFigure3](assets/GPG4Win3.png)
+![GPG4Win Figure3](assets/GPG4Win3.png)
 
 ### 4. check gpg4win is downloaded
 
@@ -62,7 +62,7 @@ Compression: Uncompressed, ZIP, ZLIB, BZIP2
 - Signature file
 - Manifest file
 
-![sparrowFigure1](assets/sparrow1.png)
+![sparrow Figure1](assets/sparrow1.png)
 
 ### 2. Import developer's GPG key
 
@@ -165,3 +165,8 @@ $ cat sparrow-2.3.0-manifest.txt | findstr Sparrow-2.3.0.msi
 
 # you should see the same hash value
 ```
+
+### This part for windows if you use MacOS or Linux you can skip this part
+
+after verify signature and checksum double click Sparrow-2.3.0.msi to install then click more info then click run anyway
+![sparrow2](assets/sparrow2.png)
