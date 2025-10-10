@@ -143,7 +143,7 @@ This launches your Linux terminal directly inside Windows.
 ```powershell
 phoovich@WIN-5JSUBCST74A:/mnt/c/Users/phoovich$ exit
 exit
-PS C:\Users\phoovich
+PS C:\Users\phoovich>
 ```
 
 ---
@@ -154,8 +154,7 @@ After installation, you can use common Linux commands such as `curl`.
 For example, to query blockchain information from your Bitcoin node:
 
 ```bash
-phoovich@WIN-5JSUBCST74A:/mnt/c/Users/phoovich$ \
-curl --user bitcoin --data-binary '{"jsonrpc": "2.0", "id": "curltest", "method": "getblockchaininfo", "params": []}' \
+$ curl --user bitcoin --data-binary '{"jsonrpc": "2.0", "id": "curltest", "method": "getblockchaininfo", "params": []}' \
 -H 'content-type: application/json' http://<your-ip-bitcoin-node>:8332/
 Enter host password for user 'bitcoin':
 {"jsonrpc":"2.0","result":{"chain":"main","blocks":918409,"headers":918409,"bestblockhash":"000000000000000000005026984991e19f7504f005bbc6076ac47dc91a3b705a","bits":"1701ddb4","target":"00000000000000000001ddb40000000000000000000000000000000000000000","difficulty":150839487445890.5,"time":1760077332,"mediantime":1760075685,"verificationprogress":0.9999989537224061,"initialblockdownload":false,"chainwork":"0000000000000000000000000000000000000000ea1437872d3e212d0551fe7a","size_on_disk":787936722435,"pruned":false,"warnings":[]},"id":"curltest"}
