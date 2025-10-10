@@ -132,6 +132,7 @@ Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 4.4.0-26100-Microsoft aarch64)
 
 This message is shown once a day. To disable it please create the
 /home/phoovich/.hushlogin file.
+phoovich@WIN-5JSUBCST74A:/mnt/c/Users/phoovich$
 ```
 
 > [!NOTE]
